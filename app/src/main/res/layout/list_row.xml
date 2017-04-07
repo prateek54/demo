@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:weightSum="1"
+    android:background="@color/cardview_shadow_start_color">
+
+    <TextView
+        android:id="@+id/name_lay"
+        android:layout_width="fill_parent"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/bg_register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Potato Sharma"
+        android:layout_weight="0.89"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/email_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:paddingBottom="2dip"
+        android:textColor="@color/bg_register"
+        android:text="potato@Example.com" />
+
+    <TextView
+        android:id="@+id/home_lay"
+        android:layout_width="204dp"
+        android:layout_height="25dp"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        android:text="011-33333333" />
+
+    <TextView
+        android:text="+91-00000000"
+        android:layout_width="match_parent"
+        android:id="@+id/mobile_lay"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

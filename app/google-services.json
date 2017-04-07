@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717786661571",
+    "firebase_url": "https://samole-8abce.firebaseio.com",
+    "project_id": "samole-8abce",
+    "storage_bucket": "samole-8abce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717786661571:android:b07b05a883fef91b",
+        "android_client_info": {
+          "package_name": "com.android.prateek.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717786661571-ph6plcp6ihcr7lopge145t40rfhv1ggg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.prateek.demo",
+            "certificate_hash": "10749c28dd0e0c51271b79f7a93843e8c9c2dac1"
+          }
+        },
+        {
+          "client_id": "717786661571-7efjmi3ava0rcuugcm29sffee7kuvr40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLORnVtxUewUL9BV9_5OvtqUnPSW7glyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717786661571-7efjmi3ava0rcuugcm29sffee7kuvr40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
