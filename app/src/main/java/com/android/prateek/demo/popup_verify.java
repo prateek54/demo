@@ -38,7 +38,6 @@ public class popup_verify extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     private ArrayList<Contact_data> cList = new ArrayList<>();
-    private ArrayList<ArrayList<phone_data>> pList = new ArrayList<>();
 
 
     private ListView listView;
@@ -71,15 +70,17 @@ public class popup_verify extends Activity {
 
                         JSONObject obj = response.getJSONObject(i);
                         phone_data pho_data = new phone_data("home","mobile");
+
+
+                        Contact_data contact_data = new Contact_data(pho_data,"name","email");
                         pho_data.setHome(obj.getString("home"));
                         pho_data.setMobile(obj.getString("mobile"));
-                        Contact_data contact_data = new Contact_data(pho_data,"name","email");
+                        contact_data.setPhone(pho_data);
 
                         contact_data.setName(obj.getString("name"));
                         contact_data.setEmail(obj.getString("email"));
 
 
-                        contact_data.setPhone(obj.getString("phone"));
 
 
                         cList.add(contact_data);
