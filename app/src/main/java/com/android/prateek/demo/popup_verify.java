@@ -73,9 +73,9 @@ public class popup_verify extends Activity {
 
 
                         Contact_data contact_data = new Contact_data(pho_data,"name","email");
-                        pho_data.setHome(obj.getString("home"));
-                        pho_data.setMobile(obj.getString("mobile"));
-                        contact_data.setPhone(pho_data);
+                        //pho_data.setHome(obj.getString("home"));
+                        //pho_data.setMobile(obj.getString("mobile"));
+                        //contact_data.setPhone(pho_data);
 
                         contact_data.setName(obj.getString("name"));
                         contact_data.setEmail(obj.getString("email"));
